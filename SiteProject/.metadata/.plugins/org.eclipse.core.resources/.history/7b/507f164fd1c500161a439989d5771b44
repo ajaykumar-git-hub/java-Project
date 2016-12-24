@@ -1,0 +1,39 @@
+/*package com.camstore.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+import com.camstore.model.Product;
+
+
+public  class ProductDAOImpl implements ProductDAO {
+
+		//list is working as a database
+			List<Product> products;
+
+		public ProductDAOImpl(){
+			products = new ArrayList<Product>();
+			Product product1 = new Product(1,"Canon","NOS 50D","Camera","Pro Camera",85000);
+			Product product2 = new Product(2,"Canon","GOS 80D","Camera","Pro Camera",120000);
+			products.add(product1);
+			products.add(product2);
+		}
+		public void deleteProduct(Product product){
+			products.remove(product.getProductId());
+			System.out.println("Product: Product ID:  "+product.getProductId() +",deleted from database");
+		}
+		
+		//retrieve list of products from the database
+		public List<Product> getAllProducts(){
+			return products;
+		}
+
+		public Product getProduct(int productId){
+			return products.get(productId);
+		}
+
+		public void updateProduct(Product product){
+		products.get(product.getProductId()).setProductName(product.getProductName());
+		System.out.println("Product: Produ " + product.getProductId() + ",updated from database");
+		}
+}
+	*/

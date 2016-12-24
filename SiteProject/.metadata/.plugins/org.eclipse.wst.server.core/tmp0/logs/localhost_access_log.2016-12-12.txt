@@ -1,0 +1,13 @@
+127.0.0.1 - - [12/Dec/2016:11:33:58 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:03 +0530] "GET /camstore/ HTTP/1.1" 200 8564
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:03 +0530] "GET /camstore/resources/css/agency.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:03 +0530] "GET /camstore/resources/css/font-awesome.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:03 +0530] "GET /camstore/resources/Images/Lightining_Laser.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:03 +0530] "GET /camstore/resources/Images/Camera_Squirrel.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:03 +0530] "GET /camstore/resources/js/angular.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:04 +0530] "GET /camstore/resources/Images/Camera_Shark.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:04 +0530] "GET /camstore/resources/Images/Cam_Love.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:04 +0530] "GET /camstore/resources/Images/Camera_Jungle.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:04 +0530] "GET /camstore/resources/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:05 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [12/Dec/2016:11:34:10 +0530] "GET /camstore/Product HTTP/1.1" 200 7462

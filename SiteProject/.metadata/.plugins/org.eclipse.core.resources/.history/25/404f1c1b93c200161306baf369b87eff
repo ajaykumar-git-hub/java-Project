@@ -1,0 +1,25 @@
+package com.camstore.dao;
+
+import com.camstore.model.Product;
+
+public class daopatterndemo {
+
+	   public static void main(String[] args) {
+		   ProductDAO productDAO=new ProductDAOImpl();
+
+	      //print all students
+	      for (Product product : productDAO.getAllProducts()) {
+	         System.out.println("Student: [RollNo : " + product.getProductId() + ", Name : " + product.getBrand() + " ]");
+	      }
+
+	      
+	      //update student
+	      Product product =productDAO.getAllProducts().get(0);
+	      product.setProductName("Michael");
+	      productDAO.updateProduct(product);
+
+	      //get the student
+	      productDAO.getProduct(0);
+	      System.out.println("Student: [RollNo : " + product.getProductId() + ", Name : " + product.getBrand() + " ]");		
+	   }
+	}
