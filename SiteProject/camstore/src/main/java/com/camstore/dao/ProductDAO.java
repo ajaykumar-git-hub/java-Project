@@ -6,8 +6,14 @@ import com.camstore.model.Product;
 
 public interface ProductDAO {
 
-    public List<Product> getAllProducts();
-    	public Product getProduct(int productId);
-    	public void updateProduct(Product product);
-    	public void deleteProduct(Product product);
+    List<Product> listProducts();
+
+    Product getProductById (int id);
+
+    void addProduct(Product product);
+
+    void updateProduct(Product product);
+
+    void removeProduct(int id);
 }
+

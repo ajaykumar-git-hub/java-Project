@@ -35,7 +35,7 @@ angular.module("productApp",[])
 		<th ng-click="sort('brand')">Brand</th>
 		<th ng-click="sort('price')">Price</th>
 		<th ng-click="sort('category')">Category</th>
-		<th></th>
+		<th>More Info</th>
 	   </tr>
 	</thead>
 

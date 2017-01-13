@@ -1,11 +1,13 @@
 package com.camstore.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+import javax.persistence.*;
 @Entity
 public class Product{
 	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int productId;
 	private String brand;
 	private String productName;
